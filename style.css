@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2? family= Oleo+Script & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script & display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2:'Oleo Script', cursiva;
+    --font3: 'Dancing Script', cursiva;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-family: var(--font2);
+    font-size: 8vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #a9a9a9;
+    font-family: var(--font1)
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 25px;
+    font-family: var(--font3);
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+section.imagem {
+    background-color: #131212;
+    color: #ffffff;
+    box-shadow: inset 6px 6px 13px 0px #000000a4;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: #0000003d;
+    padding: 5px;
+    text-shadow: 1px 1px 0px #000000;
+}
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+    font-family: var(--font2);
+}
